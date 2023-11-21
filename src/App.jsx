@@ -6,7 +6,7 @@ import './App.scss'
 function App() {
     const router = createBrowserRouter([
         {
-            path: "/",
+            path: "/react-vite-app",
             element: <Home/>
         }
     ]);
