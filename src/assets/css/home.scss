@@ -5,8 +5,36 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    background-color: antiquewhite;
+    background-color: rgb(244, 248, 210);
 
+}
+.sub-header{
+   padding: 20px 0;
+   text-align: center;
+    .input-searchbox{
+        max-width: 400px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 200px;
+        box-shadow: 0 0 10px rgba(90, 88, 88,.3);
+        overflow: hidden;
+        .serch-input{
+            width: 100%;
+            outline: none;
+            border: none;
+            padding: 8px 24px;
+        }
+        .serch-btn{
+            width: clamp(60px,20%,200px);
+            background-color: rgb(21, 164, 117);
+            color: white;
+            text-align: center;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+    }
 }
 
 .user-details-card-wrapper {
@@ -18,6 +46,7 @@
     display: flex;
     align-items: start;
     // flex-wrap: wrap;
+    margin-bottom: 25px;
     padding: 30px 0;
     gap: 30px;
     border-radius: 8px;
